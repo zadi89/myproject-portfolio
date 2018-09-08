@@ -1,0 +1,615 @@
+@charset "utf-8";
+
+
+/*공통으로 사용*/
+
+.area {
+    width: 1200px;
+    margin: 0px auto;
+}
+
+.font-raleway {
+    font-family: 'Poppins', 'Noto Sans KR', "Ã«â€šËœÃ«Ë†â€ÃªÂ³Â Ã«â€â€¢", NanumGothic, "Nanum Gothic", "Ã«Ââ€¹Ã¬â€ºâ‚¬", Dotum, Arial, sans-serif;
+}
+
+
+
+
+
+#wrap{
+
+    width: 100%;
+
+}
+.sev-content{
+}
+
+
+
+
+#header {
+    background-color: #00a5ca00;
+    position: absolute;
+    z-index: 4;
+    width: 100%;
+    height:100px;
+
+     
+}
+/*
+.header-menu{
+    position: absolute;
+    bottom:  15px;
+    background: #659;
+    z-index: 422;
+}
+*/
+
+
+#gnb.main {
+    padding-left: 15%;
+      
+
+}
+
+
+
+#headerInner {
+    position: absolute;
+    
+}
+
+#headerInner img {
+    padding: 15px;
+}
+
+#gnb ul.clearfix {
+    position: relative;
+    display: inline-block;
+    width: 20%;
+    
+
+}
+
+#gnb ul.clearfix .gnb-drop {
+    background-color: #00a5ca00;
+    color: white;
+    padding: 17px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+    bottom: 15px;
+    font-weight: 600;
+}
+
+.clearfix .gnb-2dep {
+    display: none;
+    position: absolute;
+    top:90%;
+
+    background-color: #00a5ca00;
+    
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.clearfix .gnb-2dep a {
+    color: #fff;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 27px;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+}
+
+.gnb-2dep a:hover {
+
+     font-weight: 1000;
+    
+}
+
+#gnb ul.clearfix:hover .gnb-2dep {
+    display: block;
+    width: 250px;
+}
+
+#gnb ul.clearfix:hover .gnb1 {
+    background-color: #3e8e41;
+}
+
+#gnb ul.clearfix > li > a em {
+    display: block;
+    font-size: 13px;
+/*    line-height: 18px;*/
+    font-weight: 300;
+}
+
+#gnb ul.clearfix > li > a span {
+    display: inline-block;
+    font-size: 18px;
+    line-height: 18px;
+    margin-top: 8px;
+}
+
+#gnb ul.clearfix > li.gnb-drop.two {
+
+
+}
+
+
+#gnb ul.clearfix > li > a {
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+    color: #fff;
+    
+
+}
+
+#visual{width:100%; height:344px; overflow: hidden;}
+#visual > div{height: 344px;text-align:center;position:absolute;top:0;left: 10%;z-index: 1;}
+#visual > div h2{font-size:40px; color:#fff; font-weight:400; letter-spacing:-0.3px; padding-top:173px; margin-bottom:34px;}
+#sidebar{width:100%; text-align:center;}
+#sidebar .snb{display:inline-block;}
+#sidebar .snb li{float:left; vertical-align:top;}
+#sidebar .snb li a{display:block; width:171px; height:44px; background-color:rgba(255,255,255,0.25); border:1px solid rgba(255,255,255,0.5); font-size:16px; line-height:44px; letter-spacing:-0.3px; font-weight:300; color:#fff; -webkit-transition:all 0.3s;-moz-transition:all 0.3s;-o-transition:all 0.3s;-ms-transition:all 0.3s;transition:all 0.3s}
+#sidebar .snb li:hover a, #sidebar .snb li:focus a, #sidebar .snb li.on a{background-color:#0d96b4; border:1px solid #0d96b4;}
+#sidebar .snb li a i{vertical-align:middle; font-size:22px;}
+
+
+
+/* content*/
+
+#content {
+    width: 100%;
+}
+
+.demo-container {
+    width: 100%;
+    margin-bottom: 65px;
+}
+.demo-list{
+    position: relative;
+}
+
+.top-bg{
+    float: left;
+}
+
+
+
+
+
+.demo-list > li h4 > span {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 400;
+}
+
+.demo-list > li h4 > em {
+    display: block;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+
+.top-con {
+        font-size: 18px;
+    line-height: 40px;
+    color: #fff;
+    font-weight: 1000;
+
+    text-align: center;
+    min-height: 106px;
+    margin-bottom: 20px;
+    z-index: 3;
+}
+.top-con.one{
+    position: absolute;
+    top:100px;
+    left: 10%;
+ 
+}
+
+.top-con.one > h4 {
+    padding-bottom: 10%;;
+    
+}
+
+.top-con  >a {
+
+    background: #fff;
+    height: 50px;
+    display: inline-block;
+    width: 200px;
+     background-color: #0d96b4;
+    font-size: 22px;
+    color: #fff;
+    width: 300px;
+
+}
+
+
+
+
+.top-con.two{
+    position: absolute;
+    top:100px;
+    right: 3%;
+ background:rgba(0,0,0,0.2) url(../images/demo_cover.png) no-repeat center top; 
+    background-size:100% 100%;
+}
+
+
+
+
+
+
+
+
+.demo-tit {
+    font-size: 26px;
+    line-height: 30px;
+    color: #333;
+    letter-spacing: -0.35px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+
+.demo-tit > p{margin-left:40px; font-size:16px; line-height:21px; color:#666; word-break:keep-all;}
+.demo-tit:before{display:inline-block; content:""; width:28px; height:20px; vertical-align:middle;margin-right:10px;}
+.demo-list{width:100%; display:table;}
+.demo-list > li{width:25%; display:table-cell; vertical-align:top; padding:40px 0; background-color:#f4f4f4; border:1px solid #cfcfcf; border-left:0; }
+.demo-list > li:first-child{border-left:1px solid #cfcfcf;}
+
+
+
+.demo-list > li .demo-list-inner strong {
+    display: block;
+    padding-left: 0;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 45px;
+    font-weight: 800;
+}
+
+.demo-list > li .demo-list-inner p {
+    font-size: 16px;
+    line-height: 21px;
+    color: #666;
+  
+    letter-spacing: -0.3px;
+    padding-left: 0;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+
+
+.demo-list > li strong {
+    display: block;
+    font-size: 26px;
+    line-height: 30px;
+    color: #0d96b4;
+    font-weight: 400;
+   
+    margin-bottom: 20px;
+     font-weight: 600;
+   
+}
+
+.demo-list.point > li span {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+/* 회사소개 */
+.sub-tit{font-size:40px; text-align:center; color:#666;
+    font-weight:400;
+    margin-bottom:65px;
+}
+
+.overview-box > h4 {
+    width: 100%;
+    font-size: 30px;
+    color: #fff;
+    font-weight: lighter;
+    letter-spacing: -0.35px;
+    text-align: center;
+    padding: 35px 0;
+    background-color: #0d96b4;
+}
+
+.overview-box > p{
+    font-size: 18px;
+    padding-top: 50px;
+    line-height: 33px;
+    margin-bottom: 100px;
+    color:#666;
+    
+    
+}
+
+/*회사 division*/
+#subCon{ 
+padding: 70px 0 ;
+}
+.division-cotainer {
+    width: 100%;
+    height: 250px;
+    background: url(../images/sub_company_img.jpg) no-repeat  center top;
+    padding: 114px 0;
+    margin-bottom: 90px;
+}
+.division-list{width:1110px; /*display:table;*/ margin:0px auto;}
+
+
+.division-list li{float:left; width:33.3%; text-align:center;}
+
+.division-list li.point{width:66.6%;}
+
+.division-list li > p {
+    margin: 0 0 5px 5px;
+    border: 1px solid #fff;
+    border: 1px solid rgba(255,255,255,0.8);
+
+    background-color: rgba(255,255,255,0.4) ;
+    font-size: 16px;
+    line-height: 33px;
+    color: #fff;
+    padding: 12px 0;
+    font-weight: 600;
+    
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*회사소개 CI*/
+.ci-container{margin-bottom:100px;}
+.ci-box{
+    width:100%; 
+    display:table;
+    border:1px solid #cfcfcf; 
+    border-top:0;}
+
+.ci-box li{display:table-cell; vertical-align:middle; width:50%; border-left:1px solid #cfcfcf; padding:72px 0; text-align:center; background-color:#f4f4f4;}
+
+
+
+
+.ci-box li > p{font-size:17px; line-height:33px; color:#050505; font-weight:300; 
+    margin-bottom:40px;
+    padding-left: 10px;
+text-align: center;}
+
+.ci-box>li> p span{
+    color: #f4bb1b;
+    font-weight: 800;
+
+}
+
+
+
+/* 회사소개  map (지도) */
+#map-box {
+width: 1200px;;
+    margin: 0 auto;
+    height: 450px;
+    margin-bottom: 100px;
+    border: 1px solid #333;
+    
+}
+
+
+
+.map-info>p >strong {
+    font-size: 20px;
+    display: table-cell;
+    border-bottom: 1px solid #666;
+    padding: 15px 0 15px 0; 
+        text-align: left;
+    width: 10%;
+    
+    
+        
+}
+.map-info>p >span{
+       padding-left: 50px;
+    display: table-cell;
+    font-size: 15px;
+      border-bottom: 1px solid #e0e0e0;
+  
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ci-box li> a {
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 20px;
+    background:#666;
+    color:#fff;
+    font-weight: 600;
+    z-index: 2;
+    width: 200px;
+    
+    line-height: 30px;
+}
+
+
+
+
+
+
+
+
+
+/*모바일*/
+#topMenuBar{
+    display: none;
+}
+
+
+/* ****************** SUB LAYOUT ********************** */
+.icon-inquiry{position:fixed; bottom:3%; right:28px; z-index:5;}
+.circle-animation.inquiry{width:106px; height:106px; margin:0px auto;}
+.circle-animation.inquiry img{margin:-31px 0 0 -31px; position:absolute; top:50%; left:50%;}
+
+
+
+
+
+
+
+/*회사 뉴스 */
+#new-wrap{
+    
+    
+}
+.news-container{
+       width: 100%;
+    z-index: 2;
+
+}
+
+.news-container>.news-title{
+
+    text-align: center;
+    line-height: 100px;
+    width: 80%;
+}
+
+
+
+.news-container .new-list-section{
+    width: 80%;
+display: block;
+   border: 1px solid #666;
+    margin: 0 auto;
+  
+}
+
+
+.news-container .new-list{
+  border-bottom: 1px solid #666;
+
+display: table-cell;
+}
+
+.news-container ul.new-list>li{
+    float: left;
+}
+.new-list.row {
+  
+}
+
+
+
+
+
+
+
+
+/*footer*/
+
+
+
+#footerTop {
+    width: 100%;
+    height: 50px;
+    background-color: #0d96b4;
+}
+
+.footer-top-inner {
+    height: 100%;
+}
+
+.footer-top-inner > ul {
+    display: inline-block;
+}
+
+.footer-top-inner > ul li {
+    float: left;
+    line-height: 50px;
+    margin-left: 30px;
+}
+
+.footer-top-inner > ul li:first-child {
+    margin-left: 0;
+}
+
+.footer-top-inner > ul li a {
+    font-size: 15px;
+    color: #89e4f8;
+    font-weight: 300;
+}
+
+.footer-top-inner > ul li:first-child a {
+    color: #fff;
+}
+
+.footer-top-inner > select {
+    width: 180px;
+    height: 100%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #056378 url(../images/family_select_btn.jpg) no-repeat right center;
+    border: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 16px;
+    text-indent: 5px;
+}
+
+.footer-top-inner .fr {
+    float: right;
+}
+
+
+
+
+#footerBottom{width:100%; background-color:#333; height: 200px;}
+.footer-bottom-inner{padding:3% 0;}
+.footer-bottom-inner > p{float:left; font-size:13px; line-height:20px; color:#b8b8b8; letter-spacing:-0.3px;}
+.footer-bottom-inner > p strong{display:block; font-size:18px; line-height:25px; color:#fff; font-weight:400;}
+.footer-bottom-inner > p a{color:#b8b8b8;}
+.footer-bottom-inner > p strong a{color:#fff;}
+.footer-bottom-inner > span{float:right; margin-top:50px;}
+

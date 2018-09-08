@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>구글 맵 기본</title>
+    <style>
+        #mapA{width: 800px;height: 450px;margin: auto;border: 1px solid #333;}
+    </style>
+    
+
+   <script src="https://openapi.map.naver.com/openapi/v3/maps.js?clientId=aOmtKa8eOk16TgH9zeSR"></script> 
+<!--   <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?clientId=aOmtKa8eOk16TgH9zeSR&submodules=geocoder"></script>-->
+     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+</head>
+<body>
+ <div class="wrap">
+     <div class="container">
+         <div id="mapA"></div>
+     </div>
+ </div>
+ <script>
+//     function starbucksPosition(){
+//         new google.maps.Map(document.getElementById('mapA'),{
+//             zoom:15,
+//             center:{lat:37.497853, lng:127.028571}
+//         })
+//     }
+//     window.onload=starbucksPosition;
+     
+    function starbucksPosition(){
+      myMap=new naver.maps.Map(document.getElementById('mapA'),{
+        center:new naver.maps.LatLng(37.4851459, 127.11931619999996),
+        zoom:12
+      });
+      new naver.maps.Marker({
+        position:new naver.maps.LatLng(37.4851459,127.11931619999996),
+        map:myMap
+      });
+    }
+    window.onload=starbucksPosition;
+
+
+     
+</script>
+</body>
+</html>
