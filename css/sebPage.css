@@ -68,6 +68,7 @@
     display: inline-block;
     width: 20%;
     
+    
 
 }
 
@@ -152,7 +153,7 @@
 
 }
 
-#visual{width:100%; height:344px; overflow: hidden;}
+#visual{width:100%; height:344px; overflow: hidden; }
 #visual > div{height: 344px;text-align:center;position:absolute;top:0;left: 10%;z-index: 1;}
 #visual > div h2{font-size:40px; color:#fff; font-weight:400; letter-spacing:-0.3px; padding-top:173px; margin-bottom:34px;}
 #sidebar{width:100%; text-align:center;}
@@ -164,7 +165,7 @@
 
 
 
-/* content*/
+/* support  content*/
 
 #content {
     width: 100%;
@@ -317,6 +318,229 @@
 
 
 
+
+
+
+/*support 견적문의*/
+
+#support_content{
+    height: 1000px;
+    width: 100%;
+}
+
+
+
+.inqury-container > .inquiry-info-box{float:left; width:37.5%; position:relative;}
+
+.inquiry-img-thum{position:relative; padding-top:673px; width:100%; overflow:hidden;}
+.inquiry-img-thum > span{position:absolute; top:0; left:0; }
+/*.inquiry-img-thum > span img{max-width:100%; width:100%;}*/
+
+
+.inquiry-txt-thum {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.inquiry-txt-inner {
+    padding: 50px 30px;
+}
+
+
+
+
+.inquiry-txt-inner > h4 {
+    font-size: 42px;
+    line-height: 46px;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+   
+}
+
+
+
+
+
+
+.inquiry-txt-inner > h4:after{display:block; content:""; width:89px; height:8px; background-color:#0d96b4; margin:34px 0;}
+
+
+.inquiry-txt-inner > p{font-size:14px; line-height:28px; color:#fff; letter-spacing:-0.5px;}
+/*.inqury-container > form{float:right; width:56%; margin-right:4%;}*/
+/*.bbs-btn-controls i{vertical-align:middle;}*/
+/*.bbs-btn-controls .btn-style01.send{background-color:#0d96b4; height:50px; line-height:50px;}*/
+
+
+
+
+.bbs-inquiry-agree-con .agree-tit-btn{
+    font-size: 15px;
+    display: inline-block;
+    background-color: #000;
+    color:#fff;
+    vertical-align: middle;
+     margin-left: 15px;
+    padding: 0 10px;
+    font-weight: 600;
+    line-height: 30px;
+    
+}
+
+
+.agree-check-container {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+
+
+.bbs-inquiry-tbl-box{
+    height: 637px;
+    width: 550px;
+   margin-left: 15px;
+
+   
+    position: absolute;
+    right: 19%;
+    
+    
+    
+}
+
+.support-table-list{
+    
+    width: 700px;
+
+    text-align: left;
+    line-height: 40px;
+     border: 1px solid  #666;
+  
+
+}
+
+.support-table-list  >p{
+        padding-left: 2%;
+    color: #464646;
+    font-size: 17px;
+    font-weight: 600;
+    text-align: left;
+    float: left;
+     width: 20%;
+ 
+    border: 1px solid  #666;
+   
+    
+}
+
+.write-input {
+        height: 34px;
+    border: 0px;
+    width: 40%;
+    background-color: #fff;
+    border: 1px solid #d2d2d2;
+    font-size: 13px;
+    vertical-align: middle;
+        margin-bottom: 5px;
+        margin-left: 10px;
+}
+
+.write-select{
+        background-color: #fff;
+    border: 1px solid #d2d2d2;
+    font-size: 14px;
+    vertical-align: middle;
+    margin-left: 10px;
+        height: 34px;
+    width: 18%;
+    
+    
+}
+
+
+/*
+
+.write-textarea {
+    width:70%;
+    height: 100px;
+    resize: none;
+    margin-left: 10PX;
+}
+
+
+
+*/
+
+
+
+
+
+
+
+.support-table-list >.support-contentTitle{
+        font-size: 18px;
+height:100%; 
+    width: 20%;
+    text-align: left;
+   
+    color:#666;
+    font-weight: 600;
+}
+
+.write-textarea{
+    margin-right: 10px;
+/*    background: #666;*/
+    position: relative;
+    left: 20%;
+    width:70%;
+    height: 100px;
+}
+
+
+
+.bbs-btn-controls {
+    overflow: hidden;
+    text-align: center;
+    padding: 50px 0;
+}
+
+
+
+
+.bbs-btn-controls .btn-style01.send {
+    background-color: #0d96b4;
+    height: 50px;
+    width: 150px;
+    line-height: 50px;
+    color: #fff;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* 회사소개 */
 .sub-tit{font-size:40px; text-align:center; color:#666;
     font-weight:400;
@@ -376,6 +600,10 @@ padding: 70px 0 ;
     
   
 }
+
+
+
+
 
 
 
@@ -508,11 +736,13 @@ width: 1200px;;
 
 }
 
-.news-container>.news-title{
+.company-news-title{
 
     text-align: center;
-    line-height: 100px;
-    width: 80%;
+    line-height: 150px;
+    font-size: 30px;
+    font-weight: 1000;
+  
 }
 
 
@@ -520,24 +750,94 @@ width: 1200px;;
 .news-container .new-list-section{
     width: 80%;
 display: block;
-   border: 1px solid #666;
+/*   border: 1px solid #666;*/
     margin: 0 auto;
+    margin-bottom: 50px;
+    
   
+}
+.news-container .news-date{
+    text-align: center;
+    line-height: 30px;
 }
 
 
 .news-container .new-list{
   border-bottom: 1px solid #666;
+    border-right:  1px solid #666;
+   width: 20%;
+    padding-bottom: 30px;
 
 display: table-cell;
 }
 
+.news-title> p{
+    text-align: center;
+
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 20px; 
+    padding-bottom: 20px;
+
+}
+
+.news-title> p:after {
+    display: block;
+    content: "";
+    width: 120px;
+    height: 0.5px;
+    background-color: #666;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+
+.news-content{
+    overflow: hidden;
+    margin: 10px 15px 20px 15px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #999;
+    font-weight: 600;
+    /* text-align: justify; */
+}
+
+/*
 .news-container ul.new-list>li{
     float: left;
 }
+*/
+
+
+
 .new-list.row {
   
 }
+
+.gnb-new {
+    margin-bottom: 40px;
+}
+
+/*회사뉴스 fancyBox*/
+
+#innerBox-1{display: none;width: 500px;}
+#innerBox-2{display: none;width: 500px;}
+#innerBox-3{display: none;width: 500px;}
+#innerBox-4{display: none;width: 500px;}
+#innerBox-5{display: none;width: 500px;}
+#innerBox-6{display: none;width: 500px;}
+#innerBox-7{display: none;width: 500px;}
+#innerBox-8{display: none;width: 500px;}
+#innerBox-9{display: none;width: 500px;}
+#innerBox-10{display: none;width: 500px;}
+.innerBox-title{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+
+
 
 
 
@@ -550,7 +850,7 @@ display: table-cell;
 
 
 
-#footerTop {
+#footerTop {s
     width: 100%;
     height: 50px;
     background-color: #0d96b4;
