@@ -23,6 +23,10 @@
   AOS.init();
 
 
+/*fancybox */
+  $('#ov-box a').fancybox();
+
+
 /* map 지도 */
 
     function starbucksPosition(){

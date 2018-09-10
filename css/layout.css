@@ -854,3 +854,45 @@ body {
     width: 100%;
     text-align: center;
 }
+
+
+
+
+
+/*fancybox*/
+
+#fancybox-1 {
+    display: none;
+    width: 1000px;
+}
+
+.fancybox-titleName{    
+   
+
+  font-size: 24px;
+    line-height: 60px;
+    text-align: center;
+    background: #0d96b4;
+    color: #fff;
+    border-radius: 5px;
+    
+}
+
+.fancybox-content{
+padding: 2%;
+    height: 400px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    font-size: 17px;
+
+    
+}
+    
+#fancybox-2 {
+    display: none;
+    width: 500px;
+}
+
+
+
+
