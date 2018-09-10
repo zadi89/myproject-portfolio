@@ -1,0 +1,149 @@
+@charset "utf-8";
+/*공통으로 사용*/
+
+#subCon {
+    padding: 70px 0;
+}
+
+
+.area {
+    width: 1200px;
+    margin: 0px auto;
+}
+
+.font-raleway {
+    font-family: 'Poppins', 'Noto Sans KR', "Ã«â€šËœÃ«Ë†â€ÃªÂ³Â Ã«â€â€¢", NanumGothic, "Nanum Gothic", "Ã«Ââ€¹Ã¬â€ºâ‚¬", Dotum, Arial, sans-serif;
+}
+
+
+
+
+/*footer*/
+
+#footerTop {
+    width: 100%;
+    height: 50px;
+    background-color: #0d96b4;
+}
+
+.footer-top-inner {
+    height: 100%;
+}
+
+.footer-top-inner > ul {
+    display: inline-block;
+}
+
+.footer-top-inner > ul li {
+    float: left;
+    line-height: 50px;
+    margin-left: 30px;
+}
+
+.footer-top-inner > ul li:first-child {
+    margin-left: 0;
+}
+
+.footer-top-inner > ul li a {
+    font-size: 15px;
+    color: #89e4f8;
+    font-weight: 300;
+}
+
+.footer-top-inner > ul li:first-child a {
+    color: #fff;
+}
+
+.footer-top-inner > select {
+    width: 180px;
+    height: 100%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #056378 url(../images/family_select_btn.jpg) no-repeat right center;
+    border: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 16px;
+    text-indent: 5px;
+}
+
+.footer-top-inner .fr {
+    float: right;
+}
+
+#footerBottom {
+    width: 100%;
+    background-color: #333;
+    height: 200px;
+}
+
+.footer-bottom-inner {
+    padding: 3% 0;
+}
+
+.footer-bottom-inner > p {
+    float: left;
+    font-size: 13px;
+    line-height: 20px;
+    color: #b8b8b8;
+    letter-spacing: -0.3px;
+}
+
+.footer-bottom-inner > p strong {
+    display: block;
+    font-size: 18px;
+    line-height: 25px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.footer-bottom-inner > p a {
+    color: #b8b8b8;
+}
+
+.footer-bottom-inner > p strong a {
+    color: #fff;
+}
+
+.footer-bottom-inner > span {
+    float: right;
+    margin-top: 50px;
+}
+
+
+
+/* footer fancybox*/
+
+#fancybox-1 {
+    display: none;
+    width: 1000px;
+}
+
+.fancybox-titleName{    
+   
+
+  font-size: 24px;
+    line-height: 60px;
+    text-align: center;
+    background: #0d96b4;
+    color: #fff;
+    border-radius: 5px;
+    
+}
+
+.fancybox-content{
+padding: 2%;
+    height: 400px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    font-size: 17px;
+
+    
+}
+    
+#fancybox-2 {
+    display: none;
+    width: 500px;
+}
+

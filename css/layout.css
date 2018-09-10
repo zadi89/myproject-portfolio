@@ -625,7 +625,7 @@ body {
 
 /* 제품사양*/
 
-#mainSystem {
+#mainCon04 {
     margin-top: 200px;
     width: 100%;
     position: relative;
@@ -699,7 +699,12 @@ body {
     padding-left: 7%;
 }
 
-/*footer*/
+
+
+
+
+/*
+
 
 #footerTop {
     width: 100%;
@@ -792,6 +797,50 @@ body {
     margin-top: 50px;
 }
 
+
+
+
+
+#fancybox-1 {
+    display: none;
+    width: 1000px;
+}
+
+.fancybox-titleName{    
+   
+
+  font-size: 24px;
+    line-height: 60px;
+    text-align: center;
+    background: #0d96b4;
+    color: #fff;
+    border-radius: 5px;
+    
+}
+
+.fancybox-content{
+padding: 2%;
+    height: 400px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    font-size: 17px;
+
+    
+}
+    
+#fancybox-2 {
+    display: none;
+    width: 500px;
+}
+*/
+
+
+
+
+
+
+
+
 /*modal*/
 
 .modal-content {
@@ -858,40 +907,6 @@ body {
 
 
 
-
-/*fancybox*/
-
-#fancybox-1 {
-    display: none;
-    width: 1000px;
-}
-
-.fancybox-titleName{    
-   
-
-  font-size: 24px;
-    line-height: 60px;
-    text-align: center;
-    background: #0d96b4;
-    color: #fff;
-    border-radius: 5px;
-    
-}
-
-.fancybox-content{
-padding: 2%;
-    height: 400px;
-    overflow-y: auto;
-    border: 1px solid #ddd;
-    font-size: 17px;
-
-    
-}
-    
-#fancybox-2 {
-    display: none;
-    width: 500px;
-}
 
 
 

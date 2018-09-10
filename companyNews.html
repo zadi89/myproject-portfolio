@@ -8,13 +8,16 @@
     <title>VINETECH회사 뉴스</title>
     <link rel="stylesheet" href="css/sebPage.css">
     <link rel="stylesheet" href="css/reset.css">
-         <link rel="stylesheet" type="text/css" href="css/semantic.min.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/semantic.min.css">
     
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.7/css/jquery.fancybox.min.css">
+    
+
     <script src="js/jquery-latest.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.7/js/jquery.fancybox.min.js"></script>
-    <style></style>
+
 </head>
 
 <body>
@@ -29,9 +32,9 @@
                         <ul class="clearfix">
                             <li class="gnb-drop two"> <a href="#"><span><em>NMS</em>WhatsUp Gold</span></a> </li>
                             <ul id="gndDep" class="gnb-2dep">
-                                <li class="main-dep"><a href="#">PROCESS 소개</a></li>
-                                <li class="main-dep"><a href="#">제품Edition 소개</a></li>
-                                <li class="main-dep"><a href="#">SYSTEM requirement</a></li>
+                            <li class="main-dep"><a href="index.html#scroll-con01">PROCESS 소개</a></li>
+                            <li class="main-dep"><a href="index.html#scroll-con02">제품Edition 소개</a></li>
+                            <li class="main-dep"><a href="index.html#scroll-con03">SYSTEM requirement</a></li>
                             </ul>
                         </ul>
                         <ul class="clearfix">
@@ -41,8 +44,7 @@
                             </ul>
                         </ul>
                         <ul class="clearfix">
-                            <li class="gnb-drop">Support </li>
-                            <ul id="gndDep" class="gnb-2dep">
+                            <li class="gnb-drop">Support </li>                            <ul id="gndDep" class="gnb-2dep">
                                 <li class="main-dep"><a href="support-demo.html">Demo & Trial</a></li>
                                 <li class="main-dep"><a href="support-inquiry.html">견적문의</a></li>
                                 <li class="main-dep"><a href="#">자료실</a></li>
@@ -67,7 +69,7 @@
                     <div class="loader-inner ball-scale-multiple inquiry">
                         <div></div>
                         <div></div>
-                    </div><a href="http://whatsupgold.co.kr/kr/support/inquiry.php"><img src="http://whatsupgold.co.kr/images/icon/icon_inquiry.png" alt="견적문의" /></a></div>
+                    </div><a href="support-inquiry.html"><img src="http://whatsupgold.co.kr/images/icon/icon_inquiry.png" alt="견적문의" /></a></div>
             </div>
             <!-- visual -->
             <section id="visual" style="background:url(./images/sub_visual_img03.jpg) no-repeat center center;">
@@ -88,14 +90,14 @@
                 <div class="new-list-section">
                     <div class="gnb-new">
                         <ul class="new-list" id="ov-box">
-                            <a href="#fancybox-1">
+                            <a href="#innerBox-1">
                                 <li class="news-date">2018-04-25</li>
                                 <li class="news-title">
                                     <p>바인테크 18주년 창립 기념일 행사</p>
                                 </li>
                                 <li class="news-content">2018년 4월 25일 바인테크 18주년 창립기념일 행사에서는신사업에 대한 비젼 공유와 자회사인 바록스 제품의 선물 증정이 있었습니다^^...</li>
                             </a>
-                            <div id="fancybox-1">
+                            <div id="innerBox-1">
                                 <div class="innerBox-title">바인테크 18주년 창립 기념일 행사</div>
                                 <div class="news-content">2018년 4월 25일 바인테크 18주년 창립기념일 행사에서는신사업에 대한 비젼 공유와 자회사인 바록스 제품의 선물 증정이 있었습니다^^...</div>
                             </div>
@@ -229,11 +231,31 @@
             <!-- <a href="#wrap" class="to-top-btn"><i class="material-icons">&#xE5D8;</i><span class="trans400">TOP</span></a> -->
             <div id="footerTop">
                 <div class="footer-top-inner area clearfix">
-                    <ul class="fl">
-                        <li><a href="javascript:;" onclick="javascript:layerLoad('/kr/service/privacy.php'); return false;">개인정보 취급방침</a></li>
-                        <li><a href="javascript:;" onclick="javascript:layerLoad('/kr/service/agree.php'); return false;">이용약관</a></li>
-                        <li><a href="http://whatsupgold.co.kr/kr/company/info.php">회사소개</a></li>
-                    </ul><select name="" id="" class="fr" onchange="window.open(value)"><option value="">Family Site</option><option value="http://vinetech.co.kr/">VInetech</option><option value="http://moveit.co.kr" >MOVEit</option><option value="http://www.vinemall.co.kr">VineMall</option><option value="http://www.wezon.com">WeZon</option><option value="http://www.iotplatform.co.kr">IoT Platform</option></select></div>
+                    <ul class="fl" id="ov-box">
+                        <li>
+                        <a href="#fancybox-1">개인정보 취급방침</a>
+                            <div id="fancybox-1">
+                                <div class="fancybox-titleName">개인정보 취급 방침</div>
+                                <div class="fancybox-content">개인정보 취급 방침 안내 내용이 들어갑니다
+                                </div>
+                            </div>
+                        
+                        
+                        </li>
+                        <li><a href="#fancybox-2"  >이용약관</a>                          
+                            <div id="fancybox-2">
+                                <div class="fancybox-titleName">이용약관</div>
+                                <div class="fancybox-content">이용약관 내용이 들어 갑니다.
+                                </div>
+                            </div>
+                            
+                            </li>
+                        <li><a href="companyInfo.html">회사소개</a></li>
+                    </ul>
+                    
+                    
+                    
+                    <select name="" id="" class="fr" onchange="window.open(value)"><option value="">Family Site</option><option value="http://vinetech.co.kr/">VInetech</option><option value="http://moveit.co.kr" >MOVEit</option><option value="http://www.vinemall.co.kr">VineMall</option><option value="http://www.wezon.com">WeZon</option><option value="http://www.iotplatform.co.kr">IoT Platform</option></select></div>
             </div>
             <div id="footerBottom">
                 <div class="footer-bottom-inner area clearfix">

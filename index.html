@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="css/swiper.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.7/css/jquery.fancybox.min.css">
+     <link rel="stylesheet" href="css/footer.css">
+
      
      
     <script src="js/jquery-latest.min.js"></script>
@@ -59,16 +61,16 @@
                     <ul class="clearfix">
                         <li class="gnb-drop two"> <a href="#"><span><em>NMS</em>WhatsUp Gold</span></a> </li>
                         <ul id="gndDep" class="gnb-2dep">
-                            <li class="main-dep"><a href="mainCon01">PROCESS 소개</a></li>
-                            <li class="main-dep"><a href="mainCon02">제품Edition 소개</a></li>
-                            <li class="main-dep"><a href="mainCon03">SYSTEM requirement</a></li>
+                            <li class="main-dep"><a href="#" onclick="fnMove('1')">PROCESS 소개</a></li>
+                            <li class="main-dep"><a href="#" onclick="fnMove('2')">제품Edition 소개</a></li>
+                            <li class="main-dep"><a href="#" onclick="fnMove('3')">SYSTEM requirement</a></li>
                         
                         </ul>
                     </ul>
                     <ul class="clearfix">
                         <li class="gnb-drop">Case studies </li>
                         <ul id="gndDep" class="gnb-2dep">
-                            <li class="main-dep"><a href="mainCon01">Case studies</a></li>
+                            <li class="main-dep"><a href="case_studies.html">Case studies</a></li>
                         </ul>
                     </ul>
                     <ul class="clearfix">
@@ -173,6 +175,7 @@
                     </article>
                 </article>
                 <article id="mainCon02">
+                   <div id="scroll-con01">
                     <div class="swiper-container">
                         <div class="swiper-wrapper">
                             <div id="processTit" class="process-title">
@@ -192,8 +195,10 @@
                         <div class="swiper-button-next"></div>
                         <div class="swiper-button-prev"></div>
                     </div>
+                    </div>
                 </article>
                 <article id="mainCon03" class="main-content main-editions">
+                   <div id="scroll-con02">
                     <!-- Editions -->
                     <div class="main-con03-tit wow" data-aos="fade-up" data-aos-duration="1000">
                         <h2 class="main-tit font-raleway"><span>원하는 기능 추가 가능한 </span> Plug-in 기반 Editions</h2>
@@ -287,8 +292,13 @@
                                 </div>
                             </div>
                         </div>
-                    </div><img src="http://whatsupgold.co.kr/images/icon/icon_person02.png" alt="" class="icon_person03" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine"></article>
-                <article id="mainSystem">
+                    </div><img src="http://whatsupgold.co.kr/images/icon/icon_person02.png" alt="" class="icon_person03" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                    
+                    </div>
+                    </article>
+                <article id="mainCon04">
+                  <div id="scroll-con03">
+                   
                     <!-- 제품설치 사양 -->
                     <div class="system-container area">
                         <h2 class="main-tit-type2"><b>제품설치</b> 사양 <span class="font-raleway">System Requirements (WUG Server)</span></h2>
@@ -312,6 +322,7 @@
                                 <li class="System-package">Microsoft .Net Framework 3.5.x and 4.x (with latest updates) on all systems</li>
                             </ul>
                         </div><img src="http://whatsupgold.co.kr/images/main/main_system_img.png" alt="" ></div>
+                        </div>
                 </article>
             </section>
         </div>
@@ -383,7 +394,7 @@
            </ul>
             <ul class="headerTitle">
                <li class="modal-header-title">Case Studies</li>
-               <li class="modal-header-list"><a href="#">CASE STUDIES</a></li>
+               <li class="modal-header-list"><a href="case_studies.html">CASE STUDIES</a></li>
             </ul>
             <ul class="headerTitle">
                <li class="modal-header-title">    SUPPORT</li>
