@@ -251,13 +251,20 @@
 
 .top-con > a {
     background: #fff;
-    height: 50px;
+    line-height: 50px;
     display: inline-block;
     width: 200px;
     background-color: #0d96b4;
     font-size: 22px;
     color: #fff;
     width: 300px;
+    border-radius: 5px;
+    
+    
+}
+
+.top-con > a:hover{
+    color: #fff;
 }
 
 .top-con.two {
@@ -545,6 +552,7 @@
     width: 150px;
     line-height: 50px;
     color: #fff;
+    font-size:  17px;
 }
 
 /* 회사소개 */
