@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.7/css/jquery.fancybox.min.css">
      <link rel="stylesheet" href="css/footer.css">
+     
+
 
      
      
@@ -27,6 +29,7 @@
 <body>
     <div id="wrap">
         <div id="mainContainer">
+           <div id="scroll-con05">
             <section id="mainVisual">
                 <h2 class="main-logo"><a href="index.html"><img src="http://whatsupgold.co.kr/images/main/main_logo.png" alt="ipswitch_WhatsUpGold"></a></h2>
 <!--
@@ -45,14 +48,16 @@
                         <p class="font-raleway" data-aos="fade-up" data-aos-anchor-placement="center-bottom">WhatsUp Gold는 다양한 규모의 IT 환경에 적용할 수 있는 <br>국내 최다 판매된 NMS입니다</p>
                     </div>
                 </div>
+                
                 <div class="main-scroll-simbol message">
                     <div class="circle-animation">
                         <div class="loader-inner ball-scale-mutiple inquiry">
                             <div></div>
                             <div></div>
-                        </div><a href="#mainCon01"><img src="http://whatsupgold.co.kr/images/icon/icon_scroll.png" alt="Scroll"></a></div>
+                        </div><a href="#mainCon01" onclick="fnMove('4')"><img src="http://whatsupgold.co.kr/images/icon/icon_scroll.png" alt="Scroll"></a></div>
                 </div>
             </section>
+            </div>
             <header id="header" class="main fixed">
                 <div id="headerInner" class="clearfix main">
                     <h1 class="logo"><a href="index.html"><img src="http://whatsupgold.co.kr/images/common/logo.png" alt="WhatUp Gold" class="logo.img"></a></h1>
@@ -94,9 +99,12 @@
             <section id="mainContent">
                 <article id="mainCon01" class="main-content">
                     <!-- WhatsUp Gold -->
+                    <div id="scroll-con04">
                     <div class="main-con01-tit wow" data-aos="zoom-out-down" data-aos-duration="1500">
                         <h2 class="main-tit font-raleway"><span>WhatsUpGold</span> 2018</h2>
                         <p class="main-txt">Ipswitch의 WhatsUp® Gold 2018은 한층 더 Upgrade된 맵 토폴로지와 다이내믹 리포트를 제공합니다. <br>IT Infra에 대한 정보를 수집하고 분석하여, 전체적인 IT Infra의 상태를 한눈에 확인할 수 있으며, 장애의 신속한 인지 및 해결을 도와드립니다.</p>
+                    </div>
+                    
                     </div>
                     <!--#whatsUpContainer>(span.person.wow[style="transition-delay:0.45s"]>img[src="#"])+ul.whasUp-list.area.clearfix.pc>li.wow[style="transition-delay:0.3s"]*4>(.whatsup-img-thum>span>img)+p-->
                     <div id="whatsUpContainer"><span class="person wow" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine"><img src="http://whatsupgold.co.kr/images/icon/icon_person01.png" alt="" class="icon_person01"></span>
@@ -203,7 +211,21 @@
                     <div class="main-con03-tit wow" data-aos="fade-up" data-aos-duration="1000">
                         <h2 class="main-tit font-raleway"><span>원하는 기능 추가 가능한 </span> Plug-in 기반 Editions</h2>
                         <p class="main-txt">디바이스의 확장/축소, 모니터링 기능의 활성화/비활성화를 사용자 Points 안에서 원하는 형태로 재구성이 가능하여, <br>불필요한 기능으로 인한 비용의 낭비를 최소화하였으며, 유연하게 라이선스를 운영할 수 있습니다.</p>
-                        <p class="editions-ex">라이선스활용예시 <i class="material-icons" style="vertical-align:middle">&#xE876;</i></p>
+                        <div class="editions-ex" id="ov-box"> <a href="#fancybox-3"  >라이선스활용예시  <span class=" glyphicon glyphicon-saved" aria-hidden="true"></span></a>     <div id="fancybox-3">
+                                <div class="fancybox-titleName">WhatUpGold 라이선스 적용 예(Totalview 사용 기준)
+</div>
+                                <div class="fancybox-content">네트워크 장비 50대와, 서버 20대를 등록하여 70 Points를 사용하고, 
+남은 30 Points를 통해 네트워크 분석(2 Source = 20 Points)과 Application 모니터링(1 Application = 10 Points) 등, 모니터링 범위를 확장하여 운영이 가능합니다.
+                                </div>
+                            </div> 
+                            </div>
+                        
+                        
+
+                        
+                        
+                        
+                        
                     </div>
                     <div class="editions-container area">
                         <ul class="editions-list col-4">
@@ -366,6 +388,16 @@
                     <img src="http://whatsupgold.co.kr/images/layout/footer_logo.png" alt="Vinetech" >
                 </span></div>
             </div>
+            <div class="go_top" onclick="fnMove('5')">
+               <ul>
+                   <li class="arrow"> <span class="glyphicon glyphicon-hand-up" aria-hidden="true"></span></li>
+
+                   <li class="top">TOP</li>
+               </ul>
+
+  </div>
+            
+            
         </div>
         
         
@@ -415,6 +447,9 @@
       
     </div>
   </div>
+     
+     
+
   
     
     

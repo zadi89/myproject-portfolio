@@ -479,10 +479,19 @@ body {
     width: 12%;
     padding: 10px 16px;
     background-color: #25c18f;
-    font-size: 16px;
-    color: #fff;
+ 
     border-radius: 7px;
     box-shadow: 3px 3px 4px #eee;
+}
+
+.editions-ex > a{
+       font-size: 16px;
+    color: #fff;
+}
+
+.editions-ex > a:hover{
+       
+    color: #fff;
 }
 
 .material-icons {

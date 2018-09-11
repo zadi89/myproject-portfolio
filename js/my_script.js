@@ -41,6 +41,40 @@
   $('#ov-box a').fancybox();
 
 
+
+
+/* 스크룰 맨위로 올리기*/
+//
+//$(document).ready(function($) {
+//
+//
+//            $(".go_top").click(function(event){
+//                    $( 'html, body' ).stop().animate( { scrollTop : 0 },500 );
+//            });
+//
+// });
+
+
+/* 특정부분 안보이기*/
+$(window).scroll(function() {
+
+    if ($(this).scrollTop()>1500)
+     {
+         $('.go_top').fadeIn(1500,function(){
+
+        });
+     }
+    else
+     {
+        $('.go_top').fadeOut();
+
+     }
+ });
+
+
+
+
+
 /* map 지도  회사소개*/  
 //        function starbucksPosition() {
 //            myMap = new naver.maps.Map(document.getElementById('map-box'), {

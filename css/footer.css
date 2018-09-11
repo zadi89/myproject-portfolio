@@ -112,6 +112,26 @@
 }
 
 
+/*스크룰 맨위로 올리기*/
+#footer .go_top {
+  position : fixed;
+    
+  right: 50px;
+  bottom : 120px;
+  width : 35px;
+  line-height : 35px;
+  background: #0d96b4;
+color: #fff;
+  text-align: center;
+  display: none;
+  cursor : pointer;
+    z-index: 999;
+    border-radius:10px;
+}
+
+
+
+
 
 /* footer fancybox*/
 
@@ -146,4 +166,14 @@ padding: 2%;
     display: none;
     width: 500px;
 }
+
+#fancybox-3 {
+    display: none;
+    width: 1000px;
+}
+
+
+
+
+
 
