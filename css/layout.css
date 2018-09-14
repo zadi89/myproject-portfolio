@@ -474,6 +474,61 @@ body {
 	padding-bottom: 130px;
 }
 
+
+
+
+/*모바일*/
+
+.editions-list.mobile{
+	display: none;
+	width: 50%;
+	padding-left: 1%;
+	
+
+}
+
+.editions-mobile-Bigtitle{
+	
+margin-bottom: 10px;
+    padding: 10px 0;
+    text-align: center;
+    font-weight: 500;
+    color: #fff;
+    background-color: #0d96b4;
+
+	height: 15px;
+	font-size: 18px;
+}
+.editions-list.mobile ul{
+	border: 1px solid #5dbed1;
+	margin-bottom: 5%;
+}
+
+.editions-mobile-listTitle{
+
+	text-align: center;font-weight: 500;
+	font-size: 18px; color: #fff;background-color: #5dbed1;
+	line-height: 70px;
+	
+}
+.editions-mobile-list{
+	    font-size: 14px;
+    line-height: 22px;
+    font-weight: 300;
+    color: #777;
+    padding-left: 10px;
+    position: relative;
+    word-break: keep-all;
+    margin-bottom: 10px;
+	
+}
+
+
+
+
+
+/**/
+
 .editions-list {
 	width: 100%;
 }
@@ -775,7 +830,10 @@ body {
 	text-align: center;
 }
 
-/*@media all and (max-width:1220px){.main-scroll-simbol{bottom:10%;}.main-scroll-simbol.sitemap{right:3%;}}@media all and (max-width:768px){.main-scroll-simbol{bottom:3%;}.circle-animation img{margin:-22px 0 0 -22px;}}@media all and (max-width:480px){.main-scroll-simbol{bottom:5%;}.circle-animation{height:80px; width:80px; margin:0px auto;}.circle-animation img{width:40px; margin:-18px 0 0 -18px;}.ball-scale-multiple > div{width:80px; height:80px;}}*/
+
+/*모바일 버전  */
+
+
 
 @media all and (max-width:1220px) {
 	/* MAIN :: CONTENT :: 공통 */
@@ -797,8 +855,8 @@ body {
 	.main-txt {
 		font-size: 15px;
 		line-height: 24px;
-		letter-spacing: -0.5px;
-		word-break: keep-all;
+	
+	
 	}
 	.process-title .main-tit.type2 {
 		padding-top: 10%;
@@ -806,7 +864,7 @@ body {
 }
 
 @media all and (max-width:480px) {
-	/* MAIN :: CONTENT :: 공통 */
+		/* MAIN :: CONTENT :: 공통 */
 	.main-tit {
 		font-size: 26px;
 		letter-spacing: -0.5px;
@@ -831,10 +889,13 @@ body {
 	}
 }
 
+
+
+
 /**/
 
 @media all and (max-width:1220px) {
-	/* MAIN :: CONTENT :: WhatsUpGold */
+
 	#whatsUpContainer {
 		padding: 7.5% 0 13% 0;
 	}
@@ -855,6 +916,10 @@ body {
 		letter-spacing: -0.5px;
 		padding: 0 3%;
 	}
+	
+	
+	
+	
 }
 
 @media all and (max-width:768px) {
@@ -877,20 +942,27 @@ body {
 		display: table-cell;
 		width: 30%;
 		vertical-align: top;
-		padding: 4% 0;
+		padding: 4% 5%;
 		border: 1px solid #eee;
-		border-top: 0;
-		border-left: 0;
+	
 	}
 	#whatsUpSlide {
 		display: block;
 		margin-top: 50%;
 	}
+	
+	
+		
+	.li-class > h3 {
+    font-size: 15px;
+
+}
 	#whatsUpSlide img {
 		display: none;
 	}
 	.editions-ex {
 		width: 22%;
+		margin-bottom: 10%;
 	}
 	.edi-table .table {
 		width: 60%;
@@ -905,26 +977,33 @@ body {
 	.system-container > img {
 		display: none;
 	}
+	
+	.editions-list{display: none; }
+	.editions-list.mobile{display: block; width: 55%;}
+	
+	
+	
+	.icon-person {display: none;}
+
+	
 }
 
-@media all and (max-width:480px) {
-	/* MAIN :: CONTENT :: WhatsUpGold */
-	.whatsUp-list.mobile .whatsUp-inner li {
-		padding: 3% 0;
-	}
-	.whatsUp-list.mobile li > p {
-		word-break: keep-all;
-		font-size: 13px;
-		line-height: 18px;
-	}
-	.whatsUp-list.mobile li .whatsup-img-thum {
-		padding-top: 130px;
-		margin-bottom: 5%;
-	}
-	.whatsUp-list.mobile li .whatsup-img-thum > span img {
-		width: 130px;
-	}
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media all and (max-width:1220px) {
 	.sitemap-btn {
@@ -961,7 +1040,8 @@ body {
 		background: url(/images/main/main_visual_img_m.jpg) no-repeat center center;
 		background-size: cover;
 	}
-	#gnb .clearfix > li {
+#header ul.clearfix .gnb-drop {
+
 		display: none;
 	}
 	.whatsUp-list.mobile {
@@ -970,30 +1050,75 @@ body {
 	.whatsUp-list.pc {
 		display: none;
 	}
+
 }
 
+
 @media all and (max-width:480px) {
-	/*	#mainVisual .visual-txt{ position: absolute; top:50%; left: 0%; }*/
-	.visual-txt-inner > strong {
-		font-size: 15px;
-		letter-spacing: 2px;
-		margin-bottom: 5%;
+	/* MAIN :: CONTENT :: WhatsUpGold */
+
+	
+	.whatsUp-inner {
+		width: 30%;
+		display: table;
 	}
-	.visual-txt-inner > h2 {
-		margin-bottom: 5%;
+	.whatsUp-list.mobile .whatsUp-inner li {
+		display: table-cell;
+		width: 40%;
+		vertical-align: top;
+		padding: 4% 0;
+		border: 1px solid #eee;
+		border-top: 0;
+		border-left: 0;
 	}
-	.visual-txt-inner > h2 img {
-		width: 100%;
+	
+	#whatsUpSlide {
+		display: block;
+		margin-top: 70%;
 	}
-	.visual-txt-inner > p {
-		font-size: 14px;
-		line-height: 20px;
-		margin-bottom: 7%;
-		letter-spacing: -1px;
-		word-break: keep-all;
-	}
-	#whatsUpContainer ul > li {
-		width: 15%;
-		background: #666;
-	}
+	
+	
+	
+	
+	
+	
+	.editions-ex {
+    width: 40%;
+    margin-bottom: 30%;
+}
+	
+	
+.editions-list.mobile{display: block; width: 35%;}
+.edi-table .table {
+		width: 40%;
+		padding-left: 10px;
+	}	
+	
+
+}
+
+
+@media all and (max-width:380px) {
+	
+	
+	
+	.li-class > h3 {
+    font-size: 13px;
+
+}
+	
+		.editions-ex {
+    width: 30%;
+    margin-bottom: 30%;
+}
+	
+	.editions-list.mobile{width:20%;}
+	
+.edi-table .table {
+		width: 30%;
+	padding-left: 10px;
+		
+	}	
+		
+	
 }
