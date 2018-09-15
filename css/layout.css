@@ -69,8 +69,12 @@ body {
 
 #mainVisual .main-logo {
 	position: absolute;
+
+/*
 	left: 3%;
 	top: 5%;
+	
+*/
 	z-index: 1;
 }
 
@@ -192,14 +196,17 @@ body {
 
 #header {
 	background-color: #0d96b4;
+	height: 80px;
+	position: relative;
 }
 
 #headerInner {
 	position: absolute;
 }
 
+
 #headerInner img {
-	padding: 15px;
+	padding-left: 15px;
 }
 
 #gnb ul.clearfix {
@@ -478,6 +485,79 @@ body {
 
 
 /*모바일*/
+
+
+/*모바일 사이드메뉴 */
+	
+	
+.sidenav-mobile {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 9;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+	 font-size: 18px;
+	line-height: 50px;
+		background-color: #0d96b4;
+
+	
+}
+
+.sidenav-mobile a {
+    padding: 4px 4px 4px 25px;
+    text-decoration: none;
+   
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+
+}
+
+.sidenav-mobile a:hover {
+color: #333;
+}
+.side-munutitle-mobile>a:hover{
+		background-color: #0d96b4;
+	color: #fff;
+}
+
+
+
+.sidenav-mobile .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav-mobile {padding-top: 15px;}
+  .sidenav-mobile a {font-size: 18px;}
+}
+	
+	
+	
+.sideMenu-mobile{position: absolute;
+	right: 3%; 	z-index: 5; top:15%; display: none; 	color: #fff ;line-height: 40px;}
+	
+	
+	.side-menu-sub{
+		   
+    font-size: 13px;
+  color: #e4dfdf;
+    letter-spacing: -0.5px;
+    font-weight: 300;
+		background-color: #5bc0de;
+/*		#0d96b4*/
+	}
+
+
 
 .editions-list.mobile{
 	display: none;
@@ -1009,6 +1089,7 @@ margin-bottom: 10px;
 	.sitemap-btn {
 		display: none;
 	}
+	
 }
 
 @media all and (max-width:768px) {
@@ -1040,11 +1121,15 @@ margin-bottom: 10px;
 		background: url(/images/main/main_visual_img_m.jpg) no-repeat center center;
 		background-size: cover;
 	}
-#header ul.clearfix .gnb-drop {
+ .gnb-drop {
 
 		display: none;
 	}
-	.whatsUp-list.mobile {
+	
+	
+	
+	#header .sidenav-mobile , .sideMenu-mobile{ display: block;}
+	.whatsUp-list.mobile  {
 		display: block;
 	}
 	.whatsUp-list.pc {
