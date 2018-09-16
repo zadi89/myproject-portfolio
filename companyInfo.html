@@ -18,7 +18,7 @@
     
     <script src="js/jquery-latest.min.js"></script>
     <script src="https://openapi.map.naver.com/openapi/v3/maps.js?clientId=aOmtKa8eOk16TgH9zeSR"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.7/js/jquery.fancybox.min.js"></script>
     
 </head>
@@ -63,7 +63,57 @@
                     </ul>
                 </nav>
             </div>
+            
+               <div class="sideMenu-mobile"><span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span></div>
         </header>
+        
+        
+                     <!--모바일 사이드 메뉴-->
+
+
+<div id="mysidenav-mobile" class="sidenav-mobile">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+ <ul class="side-munu">
+  <li class="side-munutitle-mobile"><a href="#">WhatsUp Gold</a>
+   <ul class="side-menu-sub">
+    <li><a href="#">PROCESS 소개</a></li>
+    <li><a href="#">제품Edition 소개</a></li>
+    <li><a href="#">SYSTEM requirement</a></li>
+   </ul>
+  </li>
+ </ul>
+ <ul class="side-munu">
+  <li class="side-munutitle-mobile"><a href="#">Case studies </a>
+   <ul class="side-menu-sub">
+    <li><a href="case_studies.html">Case studies </a></li>
+   
+   </ul>
+  </li>
+ </ul>
+ <ul class="side-munu">
+  <li class="side-munutitle-mobile"><a href="#">Support</a>
+   <ul class="side-menu-sub">
+    <li><a href="support-demo.html">Demo & Trial</a></li>
+    <li><a href="support-inquiry.html">견적문의</a></li>
+     <li><a href="support-data.html">자료실</a></li>
+   </ul>
+  </li>
+ </ul>
+ <ul class="side-munu">
+  <li class="side-munutitle-mobile"><a href="#">VINETECH 소개</a>
+   <ul class="side-menu-sub">
+    <li><a href="companyInfo.html">회사소개</a></li>
+    <li><a href="#">바인테크</a></li>
+   </ul>
+  </li>
+ </ul>
+</div>
+        
+        
+        
+        
+        
+        
         <div id="gnbBg"></div>
         <!-- //header -->
         <!-- container -->
@@ -110,9 +160,9 @@
                     <!-- 컨텐츠 내용 -->
                     <article id="subCon">
                         <h2 class="sub-tit font-raleway">Overview</h2>
-                        <div class="overview-box area">
+                        <div class="overview-box area item-box">
                             <h4>바인테크는 <span>IoT기술기반</span>의 전문 IT비즈니스 업체로 힘차게 나아갑니다.</h4>
-                            <p>세상 모든 사람들이 편안하고 풍요롭게 살아가는 IoT세상은 우리가 꿈꾸는 미래의 모습이며, 정보통신분야의 혁신적인 기술과 발전 <br /> 가운데서도 사물인터넷의 가능성을 이전에 우리가 생각하지 못한 가속화된 변화의 세상을 경험할 수 있도록 합니다. <br />최근 전세계적으로 유행하고 있는 사물인터넷은 다양하고 무수한 디바이스를 네트워크를 통해 컴퓨팅시스템 <br />및 인프라스트럭처에 연결함으로써 새로운 서비스를 탄생시키고자 하는 정보통신분야의 미래혁신적인 개념이라고 할 수 있습니다. <br /><br /><span>바인테크는 2001년 설립 이후, 다양한 고객사에 수많은 정보를 처리하기 위한 그리드 컴퓨팅 클러스터(HPC)와 서버시스템을 구축해왔으며,  <br />또한 복잡한 인프라스트럭처를 관리하기 위한 NMS 및 보안분야의 우수솔루션들을 고객들에게 제공하고 안정적으로 지원해 왔습니다.</span> <br /><br />바인테크는 그리드 및 클라우드, 관리솔루션 분야의 경험과 기술력을 사물인터넷 분야에 접목하여, 폭발적으로 증가하고 있는 <br />사물인터넷 환경을 안정적으로 관리할 수 있는 효율적인 솔루션들과 서비스상품들을 개발공급하고자 전사적인 노력을 다 하고 있습니다.</p>
+                            <p>세상 모든 사람들이 편안하고 풍요롭게 살아가는 IoT세상은 우리가 꿈꾸는 미래의 모습이며, 정보통신분야의 혁신적인 기술과 발전 <br> 가운데서도 사물인터넷의 가능성을 이전에 우리가 생각하지 못한 가속화된 변화의 세상을 경험할 수 있도록 합니다. <br>최근 전세계적으로 유행하고 있는 사물인터넷은 다양하고 무수한 디바이스를 네트워크를 통해 컴퓨팅시스템 <br>및 인프라스트럭처에 연결함으로써 새로운 서비스를 탄생시키고자 하는 정보통신분야의 미래혁신적인 개념이라고 할 수 있습니다. <br><br><span>바인테크는 2001년 설립 이후, 다양한 고객사에 수많은 정보를 처리하기 위한 그리드 컴퓨팅 클러스터(HPC)와 서버시스템을 구축해왔으며,  <br>또한 복잡한 인프라스트럭처를 관리하기 위한 NMS 및 보안분야의 우수솔루션들을 고객들에게 제공하고 안정적으로 지원해 왔습니다.</span> <br><br>바인테크는 그리드 및 클라우드, 관리솔루션 분야의 경험과 기술력을 사물인터넷 분야에 접목하여, 폭발적으로 증가하고 있는 <br>사물인터넷 환경을 안정적으로 관리할 수 있는 효율적인 솔루션들과 서비스상품들을 개발공급하고자 전사적인 노력을 다 하고 있습니다.</p>
                         </div>
                         <h2 class="sub-tit font-raleway">Business Division</h2>
                         <div class="division-cotainer">
@@ -150,11 +200,11 @@
                             <ul class="ci-box first clearfix">
                                 <li><img src="http://whatsupgold.co.kr/images/content/ci_img01.png" alt=""></li>
                                 <li>
-                                    <p class="brnone"><span>"바인테크"</span>는 뿌리가 깊고 열매가 풍성한 전문가, <br />기술자라는 뜻의 합성어로써, 모든 임직원들은 고객을 위한 <br />가치를 창조하고 고객을 통해 회사가 발전 할 수 있도록 <br />노력하고 있습니다.</p><a href="#">CI 다운로드</a></li>
+                                    <p class="brnone"><span>"바인테크"</span>는 뿌리가 깊고 열매가 풍성한 전문가, <br>기술자라는 뜻의 합성어로써, 모든 임직원들은 고객을 위한 <br>가치를 창조하고 고객을 통해 회사가 발전 할 수 있도록 <br>노력하고 있습니다.</p><a href="#">CI 다운로드</a></li>
                             </ul>
                             <ul class="ci-box second clearfix">
                                 <li>
-                                    <p><span>Symbol - "3C"</span><br />각각의 도형은 바인테크의 3대정신인 창의와 신뢰 그리고 도전을 의미합니다. <br /><br /><span>Slogan - "The IoT & Business Platform Company"</span> <br />위의 슬로건은 회사의 비즈니스 방향과 목표로써, <br />전문 IoT 솔루션 회사로 성장하고 발전하기 위한 우리의 희망을 담고 있습니다.</p>
+                                    <p><span>Symbol - "3C"</span><br>각각의 도형은 바인테크의 3대정신인 창의와 신뢰 그리고 도전을 의미합니다. <br><br><span>Slogan - "The IoT & Business Platform Company"</span> <br>위의 슬로건은 회사의 비즈니스 방향과 목표로써, <br>전문 IoT 솔루션 회사로 성장하고 발전하기 위한 우리의 희망을 담고 있습니다.</p>
                                 </li>
                                 <li><img src="http://whatsupgold.co.kr/images/content/ci_img02.png" alt="" class="point" /></li>
                             </ul>
@@ -208,7 +258,7 @@
             </div>
             <div id="footerBottom">
                 <div class="footer-bottom-inner area clearfix">
-                    <p><strong>MOVEit 한국총판 (주)바인테크 <br />제품구매 문의 : <a href="tel:02-2182-8335,9">02-2182-8335,9</a>, 평일 09:00 - 18:00 (토,일,공휴일 휴무)</strong>Address : 서울특별시 송파구 법원로 11길 7, C동 1207 ~ 1210호 (문정동, 현대지식산업센터) E-mail : <a href="mailto:eswsales@vinetech.co.kr">eswsales@vinetech.co.kr</a> <br /><br />COPYRIGHT&copy;2017 VINETECH ALL RIGHTS RESERVED, CONTACT WEBMASTER FOR MORE INFORMATION</p><span><img src="http://whatsupgold.co.kr/images/layout/footer_logo.png" alt="Vinetech" /></span></div>
+                    <p><strong>MOVEit 한국총판 (주)바인테크 <br>제품구매 문의 : <a href="tel:02-2182-8335,9">02-2182-8335,9</a>, 평일 09:00 - 18:00 (토,일,공휴일 휴무)</strong>Address : 서울특별시 송파구 법원로 11길 7, C동 1207 ~ 1210호 (문정동, 현대지식산업센터) E-mail : <a href="mailto:eswsales@vinetech.co.kr">eswsales@vinetech.co.kr</a> <br><br>COPYRIGHT&copy;2017 VINETECH ALL RIGHTS RESERVED, CONTACT WEBMASTER FOR MORE INFORMATION</p><span><img src="http://whatsupgold.co.kr/images/layout/footer_logo.png" alt="Vinetech" class="footer-img"></span></div>
             </div>
         </footer>
         <!-- 모달 레이어팝업 -->
@@ -223,21 +273,8 @@
             </div>
         </article>
     </div>
-    <script >
-        function starbucksPosition() {
-            myMap = new naver.maps.Map(document.getElementById('map-box'), {
-                center: new naver.maps.LatLng(37.4851459, 127.11931619999996),
-                zoom: 12
-            });
-            new naver.maps.Marker({
-                position: new naver.maps.LatLng(37.4851459, 127.11931619999996),
-                map: myMap
-            });
-        }
-        window.onload = starbucksPosition;
-        
-        
-        $('#ov-box a').fancybox();
+    <script src="js/sebpage.js">
+
         
         
         

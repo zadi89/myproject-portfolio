@@ -18,3 +18,21 @@ function closeNav() {
 			$("ul",this).slideToggle("fast");
 		});s
 	});
+
+
+
+
+/*지도  (회사소개 )*/
+        function starbucksPosition() {
+            myMap = new naver.maps.Map(document.getElementById('map-box'), {
+                center: new naver.maps.LatLng(37.4851459, 127.11931619999996),
+                zoom: 12
+            });
+            new naver.maps.Marker({
+                position: new naver.maps.LatLng(37.4851459, 127.11931619999996),
+                map: myMap
+            });
+        }
+        window.onload = starbucksPosition;
+        
+        
