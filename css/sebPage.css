@@ -1049,173 +1049,214 @@ color: #333;
 }
 
 
-
-
-
 @media screen and (max-height: 450px) {
-  .sidenav-mobile {padding-top: 15px;}
-  .sidenav-mobile a {font-size: 18px;}
+	.sidenav-mobile {
+		padding-top: 15px;
+	}
+	.sidenav-mobile a {
+		font-size: 18px;
+	}
 }
-	
-	
-	
-.sideMenu-mobile{position: absolute;
-	right: 3%; 	z-index: 5; top:15%; display: none;
-	
-	
-	
-	color: #fff ;line-height: 40px;}
-	
-	.side-menu-sub{font-size: 13px;color: #e4dfdf;letter-spacing: -0.5px;font-weight: 300;background-color: #5bc0de;/* #0d96b4*/}
 
+.sideMenu-mobile {
+	position: absolute;
+	right: 3%;
+	z-index: 5;
+	top: 15%;
+	display: none;
+	color: #fff;
+	line-height: 40px;
+}
 
+.side-menu-sub {
+	font-size: 13px;
+	color: #e4dfdf;
+	letter-spacing: -0.5px;
+	font-weight: 300;
+	background-color: #5bc0de;
+	/* #0d96b4*/
+}
 
-
-
-
-
-
-@media all and (max-width:1220px){
+@media all and (max-width:1220px) {
 	/* -------- 회사소개 :: 공통 -------- */
-	.sub-tit{font-size:34px; margin-bottom:5%; }
+	.sub-tit {
+		font-size: 34px;
+		margin-bottom: 5%;
+	}
 	/* -------- 회사소개 :: Overview -------- */
-	.overview-box > h4{font-size:25.5px; padding:25px 0; letter-spacing:-0.75px;}
-	.overview-box > p{line-height:28px; padding:5% 0; margin-bottom:5%;}
+	.overview-box > h4 {
+		font-size: 25.5px;
+		padding: 25px 0;
+		letter-spacing: -0.75px;
+	}
+	.overview-box > p {
+		line-height: 28px;
+		padding: 5% 0;
+		margin-bottom: 5%;
+	}
 	/* -------- 회사소개 :: Division -------- */
-	.division-cotainer{padding:100px 0; margin-bottom:9%;}
-	.division-list{width:100%;}
-	.division-list li > p{font-size:16px; line-height:28px; }
+	.division-cotainer {
+		padding: 100px 0;
+		margin-bottom: 9%;
+	}
+	.division-list {
+		width: 100%;
+	}
+	.division-list li > p {
+		font-size: 16px;
+		line-height: 28px;
+	}
 	/* -------- 회사소개 :: CI -------- */
-	.ci-container{margin-bottom:10%;}
-	.ci-box li{padding:5% 2%;}
-	.ci-box li > p{word-break:keep-all;}
+	.ci-container {
+		margin-bottom: 10%;
+	}
+	.ci-box li {
+		padding: 5% 2%;
+	}
+	.ci-box li > p {
+		word-break: keep-all;
+	}
 	/* -------- 회사소개 :: Location -------- */
-
-	
-	
-	
-	
-		.footer-img, .footer-top-inner > select{display: none;}
+	.footer-img,
+	.footer-top-inner > select {
+		display: none;
+	}
 }
-
-
-
-
-
-
-
-
-
 
 @media all and (max-width:848px) {
-	
-	
-	#gnb  .gnb-drop{display: none;}
-	.sideMenu-mobile{display: block;}
-
-	#visual > div h2 {position: absolute; left: 20%;width: 80% }
-	#sidebar .snb li a , .circle-animation.inquiry img{display: none;}
-	
+	#gnb .gnb-drop {
+		display: none;
+	}
+	.sideMenu-mobile {
+		display: block;
+	}
+	#visual > div h2 {
+		position: absolute;
+		left: 20%;
+		width: 80%
+	}
+	#sidebar .snb li a,
+	.circle-animation.inquiry img {
+		display: none;
+	}
 	.overview-box > h4 {
 		font-size: 17px;
-    width: 100%;
-	
-	position: absolute;}
-	
-.division-list li, .division-list li.point{width:100%; float:none; display:block; }
-
-
+		width: 100%;
+		position: absolute;
+	}
+	.division-list li,
+	.division-list li.point {
+		width: 100%;
+		float: none;
+		display: block;
+	}
 }
-
 
 @media all and (max-width:768px) {
-
-
-		/* -------- 회사소개 :: Division -------- */
-	.division-cotainer{padding:10% 0; background-size:cover;}
-	
-	
-	
-	.division-list li > p{font-size:15px; line-height:24px; letter-spacing:-0.75px;width: 55%;}
-	
-	
-	
-	
-		.ci-box li {
-    display: block;
-    width: 70%;
-    border: 0;
+	/* -------- 회사소개 :: Division -------- */
+	.division-cotainer {
+		padding: 10% 0;
+		background-size: cover;
+	}
+	.division-list li > p {
+		font-size: 15px;
+		line-height: 24px;
+		letter-spacing: -0.75px;
+		width: 55%;
+	}
+	.ci-box li {
+		display: block;
+		width: 70%;
+		border: 0;
+	}
+	.map-info strong {
+		font-size: 16px;
+		width: 13.5%;
+	}
+	.map-info span {
+		font-size: 16px;
+		line-height: 20px;
+		word-break: keep-all;
+	}
 }
-	
-	
-	
-		.map-info strong{font-size:16px; width:13.5%;}
-	.map-info span{font-size:16px; line-height:20px; word-break:keep-all;}
-	
-	
-
-
-}
-
-
 
 @media all and (max-width:600px) {
-	
-		.overview-box > h4 {
-		font-size: 14px;}
-		.overview-box > p {font-size: 13px;}
-	
-	
-		/* -------- 회사소개 :: Division -------- */
-/*	.division-list li, .division-list li.point{width:100%; float:none; display:block;}*/
-	.division-list li > p{ text-align: center; }
-
-	.division-list li, .division-list li.point{width:80%; float:none; display:block;  }
-
-	
-	
-	.ci-box li { width: 40%;}
-	
+	.overview-box > h4 {
+		font-size: 14px;
+	}
+	.overview-box > p {
+		font-size: 13px;
+	}
+	/* -------- 회사소개 :: Division -------- */
+	/*	.division-list li, .division-list li.point{width:100%; float:none; display:block;}*/
+	.division-list li > p {
+		text-align: center;
+	}
+	.division-list li,
+	.division-list li.point {
+		width: 80%;
+		float: none;
+		display: block;
+	}
+	.ci-box li {
+		width: 40%;
+	}
 }
-
-
-
-
 
 @media all and (max-width:480px) {
-	
-				.overview-box > h4 {
-		font-size: 12px; 
+	.overview-box > h4 {
+		font-size: 12px;
+	}
+	.division-list li,
+	.division-list li.point {
+		width: 60%;
+	}
+	.ci-box li {
+		width: 30%;
+	}
 }
-	.division-list li, .division-list li.point{width: 60%; }
-	
-	
-		.ci-box li {width: 30%;}
-	
-
-
-	
-	
-}
-	
-	
-	
-
-
 
 @media all and (max-width:380px) {
-	
-			.overview-box > h4 {font-size: 12px; }
+	.overview-box > h4 {
+		font-size: 12px;
+	}
+}
 
+
+
+
+/*VINETECH회사 뉴스*/
+
+@media all and (max-width:848px){
+		img{display: none;}
+	.gnb-new{width: 70%;}
+	
+}
+
+
+
+
+@media all and (max-width:768px){
+
+	
 
 }
 
+@media all and (max-width:600px){
+	
 	
 
+	
+		#ov-box{display: inline-block; width: 100% ;margin-left:30%; }
+
+}
 
 
 
 
 
-
+@media all and (max-width:480px){
+	
+	
+}
 
