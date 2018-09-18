@@ -190,6 +190,16 @@ body {
 
 /*header 헤더 부분*/
 
+      .headerFixed {
+        position: fixed;
+        top: 0px;
+		  
+		  
+		  
+      }
+
+
+
 #gnb.main {
 	padding-left: 15%;
 }
@@ -197,7 +207,9 @@ body {
 #header {
 	background-color: #0d96b4;
 	height: 80px;
-	position: relative;
+	z-index: 9;
+	width: 100%;
+/*	position: relative;*/
 }
 
 #headerInner {

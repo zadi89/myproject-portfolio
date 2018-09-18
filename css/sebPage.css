@@ -1228,7 +1228,7 @@ color: #333;
 /*VINETECH회사 뉴스*/
 
 @media all and (max-width:848px){
-		img{display: none;}
+		.inquiry-imglogo{display: none;}
 	.gnb-new{width: 70%;}
 	
 }
@@ -1255,8 +1255,4 @@ color: #333;
 
 
 
-@media all and (max-width:480px){
-	
-	
-}
 

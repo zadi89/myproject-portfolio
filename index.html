@@ -23,6 +23,21 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.7/js/jquery.fancybox.min.js"></script>
+        <script>
+      $( document ).ready( function() {
+        var jbOffset = $( '.main.fixed' ).offset();
+        $( window ).scroll( function() {
+          if ( $( document ).scrollTop() > jbOffset.top ) {
+            $( '.main.fixed' ).addClass( 'headerFixed' );
+          }
+          else {
+            $( '.main.fixed' ).removeClass( 'headerFixed' );
+          }
+        });
+      } );
+    </script>
+    
+    
     
 </head>
 
@@ -59,6 +74,7 @@
             </section>
             </div>
             <header id="header" class="main fixed">
+               
                 <div id="headerInner" class="clearfix main">
                     <h1 class="logo"><a href="index.html"><img src="http://whatsupgold.co.kr/images/common/logo.png" alt="WhatUp Gold" class="logo.img"></a></h1>
                 </div>
