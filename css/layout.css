@@ -160,9 +160,9 @@ body {
 .circle-animation img {
 	position: absolute;
 	top: 50%;
-	left: 50%;
-	margin: -21px 0 0 -21px;
-	z-index: 8
+	left: 60%;
+	/* margin: -21px 0 0 -21px; */
+	z-index: 8;
 }
 
 .circle-animation.inquiry {
@@ -1105,6 +1105,10 @@ margin-bottom: 10px;
 }
 
 @media all and (max-width:768px) {
+	
+	
+
+	
 	#mainVisual .main-logo,
 	img.btn-lg {
 		display: none;
@@ -1119,10 +1123,12 @@ margin-bottom: 10px;
 		display: block;
 		position: absolute;
 		top: -250%;
-		background: #000;
+
 		z-index: 2;
 	
 	}
+		.visual-txt>.visual-txt-inner  img{width: 96%;}
+	
 	.visual-txt.mobile .font-raleway {
 		width: 100%;
 		padding-left: 10%;
@@ -1130,9 +1136,10 @@ margin-bottom: 10px;
 	/*	#mainVisual .main-logo img{width:120px;}*/
 	/*	#mainVisual .visual-txt{top:29%;}*/
 	.visual-img li {
-		background: url(/images/main/main_visual_img_m.jpg) no-repeat center center;
 		background-size: cover;
 	}
+	
+	.circle-animation img{width: 45%;}
  .gnb-drop {
 
 		display: none;
@@ -1152,6 +1159,17 @@ margin-bottom: 10px;
 
 
 @media all and (max-width:480px) {
+	
+		.visual-txt.mobile .font-raleway {
+		width: 100%;
+			font-size: 15px;
+	
+	
+	}
+
+	
+	
+	
 	/* MAIN :: CONTENT :: WhatsUpGold */
 
 	
@@ -1196,6 +1214,17 @@ margin-bottom: 10px;
 
 
 @media all and (max-width:380px) {
+	
+		.visual-txt.mobile .font-raleway {
+		width: 100%;
+		font-size: 14px;
+			
+				padding-left: 0;
+			line-height: 25px;
+			
+		
+	}
+
 	
 	
 	

@@ -16,7 +16,7 @@ function closeNav() {
 		$("#mysidenav-mobile ul.side-menu-sub").hide();
 		$("#mysidenav-mobile ul.side-munu li").click(function(){
 			$("ul",this).slideToggle("fast");
-		});s
+		});
 	});
 
 
